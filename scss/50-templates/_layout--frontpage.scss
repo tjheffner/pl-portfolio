@@ -1,0 +1,26 @@
+.content {
+  width: 100%;
+}
+
+.side {
+  width: 17.5%;
+  float: left;
+}
+
+.main {
+  float: left;
+  width: 82.5%;
+}
+
+.side--content {
+  padding: $spacing;
+}
+
+.main--content {
+  padding-top: $spacing;
+  margin-left: $spacing * 3;
+}
+
+.thumbnail-block {
+  padding-top: $spacing * 6.5;
+}

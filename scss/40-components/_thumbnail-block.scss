@@ -1,0 +1,14 @@
+.thumbnail-block {
+ width: 650px;
+}
+
+.thumbnail--block--item {
+  float: left;
+}
+
+.thumbnail--item {
+  max-width: 200px;
+  margin-right: $gap;
+  margin-bottom: $gap / 2;
+}
+
