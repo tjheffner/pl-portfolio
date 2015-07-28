@@ -55,6 +55,14 @@
     {
       "name": "$color--yellow",
       "value": "#FFFF00"
+    },
+    {
+      "name": "$color--teal",
+      "value": "#19FF8F"
+    },
+    {
+      "name": "$color--cream",
+      "value": "hsl(51, 58%, 85%)"
     }
   ]
 }

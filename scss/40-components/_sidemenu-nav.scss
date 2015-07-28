@@ -1,0 +1,22 @@
+.sidemenu--nav {
+  width: 15%;
+  padding: $spacing;
+}
+
+.sidemenu--nav__logo {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 126px;
+}
+
+.nav__links--projects {
+  a {
+    color: $color--gray--dark;
+  }
+}
+
+.nav__links--reference {
+  a {
+    color: $color--gray--light;
+  }
+}

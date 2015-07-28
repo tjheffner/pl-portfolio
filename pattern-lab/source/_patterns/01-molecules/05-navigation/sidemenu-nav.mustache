@@ -1,0 +1,19 @@
+<div class="sidemenu--nav">
+  <div class="sidemenu--nav__logo">
+    {{> atoms-logo }}
+  </div>
+
+  <div class="sidemenu--nav__links">
+    <ul class="nav__links">
+      {{# projects }}
+        <li class="nav__links--projects"><a href="{{ url }}">{{ name }}</a></li>
+      {{/ projects }}
+
+      {{# reference }}
+        <li class="nav__links--reference"><a href="{{ url }}">{{ name }}</a></li>
+      {{/ reference }}
+
+    </ul>
+
+  </div>
+</div>

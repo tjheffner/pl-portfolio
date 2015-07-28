@@ -1,5 +1,6 @@
 body {
   @include body-copy();
+  background-color: $color--background;
 }
 
 h1 {
@@ -20,10 +21,10 @@ img {
 
 ul {
   list-style-type: none;
+  line-height: 1.25em;
 }
 
 a {
-  color: $color--gray--black;
   text-decoration: none;
 
   &:hover {
